@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+        }
+        .video-container {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            z-index: -1;
+        }
+        video {
+            object-fit: cover;
+            width: 100%;
+            height: 100%;
+        }
+        .content {
+            position: relative;
+            z-index: 1;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.7); /* Latar belakang konten */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            border-radius: 5px;
+            text-align: center;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        h2 {
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        #sep{
+          margin-left: auto;
+          margin-right: auto;
+        }
+        .button {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            margin-top: 20px;
+        }
+        .audio {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 15vh;
+        }
+    </style>
+</head>
+<body>
+    <div class="audio">
+        <audio controls loop >
+          <source src="maxwell-the-cat-meme-song-ringdd.com.mp3" type="audio/mp3">
+        </audio>
+      </div>
+    <div class="container">
+      <h1>BELAJAR METH SAMA MAXWELL </h1>
+        <div class="button" id="sep">
+              <button type="button" class="btn"
+              onclick="alert('Masuk kelas')" > 
+              <a href="PersegiPanjang.html">
+              <h2>RUMUS PERSEGI PANJANG </h2>
+              </a>
+              </button>
+
+              <button type="button" class="btn"
+              onclick="alert('Masuk kelas')">
+              <a href="persegi.html">
+              <h2>RUMUS PERSEGI </h2>
+              </a>
+              </button>
+              
+              <button type="button" class="btn"
+              onclick="alert('Masuk kelas')">
+              <a href="segitiga.html">
+              <h2>RUMUS SEGITIGA</h2>
+              </a>
+              </button>
+
+              <button type="button" class="btn"
+              onclick="alert('Masuk kelas')">
+              <a href="Lingkarangan.html">
+              <h2>RUMUS LINGKARAN</h2>
+              </a>              
+              </button>
+              
+              <button type="button" class="btn"
+              onclick="alert('Masuk kelas')">
+              <a href="ketupat.html">
+              <h2>RUMUS KETUPAT</h2>
+              </a>
+              </button>
+        </div>
+    </div>
+    <div class="video-container">
+        <video autoplay muted loop>
+            <source src="" type="video/mp4"> <!-- Ganti dengan jalur file video latar belakang yang Anda inginkan -->
+        </video>
+      </div>
+    </div>
+</body>
+</html>
